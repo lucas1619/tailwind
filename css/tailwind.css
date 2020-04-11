@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+.alert{
+    @apply bg-green-700 px-8 py-2 m-4 text-green-100 inline-block;
+}
+.alert-danger{
+    @apply bg-red-700 px-8 py-2 m-4 text-red-100 inline-block;
+}
+.alert-warning{
+    @apply bg-yellow-700 px-8 py-2 m-4 text-yellow-100 inline-block;
+}
+.alert-info{
+    @apply bg-blue-700 px-8 py-2 m-4 text-blue-100 inline-block;
+}
+
+@tailwind utilities;
